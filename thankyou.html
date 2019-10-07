@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="zxx" class="no-js">
+
+<head>
+    <!-- Mobile Specific Meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Favicon-->
+    <link rel="shortcut icon" href="favicon.ico">
+    <!-- Author Meta -->
+    <meta name="author" content="BM Architectural Design">
+    <!-- Meta Description -->
+    <meta name="description" content="">
+    <!-- Meta Keyword -->
+    <meta name="keywords" content="">
+    <!-- meta character set -->
+    <meta charset="UTF-8">
+    <!-- Site Title -->
+    <title>BM Architectural Design</title>
+
+    <!-- Facebook -->
+    <meta property="og:title" content="BM Architectural Design">
+    <meta property="og:description" content="Canadian Architectural Design: Building for Sustainability">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="http://bmarchitecturaldesign.com">
+
+    <!-- Twitter -->
+    <meta name="twitter:title" content="BM Architectural Design">
+    <meta name="twitter:description" content="Canadian Architectural Design: Building for Sustainability">
+    <meta name="twitter:image" content="">
+    <meta name="twitter:card" content="summary_large_image">
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700|Roboto:400,500" rel="stylesheet">
+    <!--
+			CSS
+			============================================= -->
+    <link rel="stylesheet" href="css/linearicons.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/nice-select.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+
+    <!-- Preloader Start -->
+    <div class="preloader">
+
+        <div class="load-bar">
+            <div class="bar"></div>
+
+        </div>
+
+    </div>
+    <!-- Preloader End -->
+
+    <!-- Disable Right Click Start -->
+    <script language="JavaScript">
+        /**
+         * Disable right-click of mouse, F12 key, and save key combinations on page
+         */
+        window.onload = function() {
+            document.addEventListener("contextmenu", function(e) {
+                e.preventDefault();
+            }, false);
+            document.addEventListener("keydown", function(e) {
+                //document.onkeydown = function(e) {
+                // "I" key
+                if (e.ctrlKey && e.shiftKey && e.keyCode == 73) {
+                    disabledEvent(e);
+                }
+                // "J" key
+                if (e.ctrlKey && e.shiftKey && e.keyCode == 74) {
+                    disabledEvent(e);
+                }
+                // "S" key + macOS
+                if (e.keyCode == 83 && (navigator.platform.match("Mac") ? e.metaKey : e.ctrlKey)) {
+                    disabledEvent(e);
+                }
+                // "U" key
+                if (e.ctrlKey && e.keyCode == 85) {
+                    disabledEvent(e);
+                }
+                // "F12" key
+                if (event.keyCode == 123) {
+                    disabledEvent(e);
+                }
+            }, false);
+
+            function disabledEvent(e) {
+                if (e.stopPropagation) {
+                    e.stopPropagation();
+                } else if (window.event) {
+                    window.event.cancelBubble = true;
+                }
+                e.preventDefault();
+                return false;
+            }
+        };
+    </script>
+    <!-- Disable Right Click End -->
+
+    <!-- Start Header Area -->
+    <header class="default-header">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <img src="img/logo.png" width="300px;" alt="DM Architectural Design">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="fa fa-bars"></span>
+				</button>
+
+                <div class="collapse navbar-collapse justify-content-end align-items-center" id="navbarSupportedContent">
+                    <ul class="navbar-nav">
+                        <li><span class="underline"><a class="active" href="index.html">Home</a></span></li>
+                        <li><span class="underline"><a href="projects.html">Portfolio</a></span></li>
+
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" href="javascript:void(0)" onclick="somefunction(); return false;" id="navbardrop" data-toggle="dropdown">
+								About Us
+                               </a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="sustainability-as-a-focus.html">Sustainability as a Focus</a>
+                                <a class="dropdown-item" href="about.html">Our Story</a>
+
+                            </div>
+                        </li>
+                        <li><span class="underline"><a href="services.html">Services</a></span></li>
+                        <li><span class="underline"><a href="process.html">Process</a></span></li>
+                        <li><span class="underline"><a href="contact.html">Get in Touch</a></span></li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- End Header Area -->
+
+   
+
+    <!-- Start features Area -->
+    <section class="features-area section-gap-top" id="news">
+        <div class="container">
+            <div class="section-title text-center section-gap-top">
+                <h4>Thank you!</h4>
+                <h2>In the meantime, <br> please explore our projects below.</h2>
+            </div>
+           
+        </div>
+    </section>
+    <!-- End features Area -->
+
+    
+
+    <!-- Start Project Area -->
+    <section class="project-area" id="project">
+        <div class="container">
+            <div class="row d-flex justify-content-center">
+                <div class="col-lg-8">
+                    
+                </div>
+                <div class="col-lg-12">
+                    <div class="filters mb-5">
+                        <ul>
+                            <li class="active" data-filter=".all">All</li>
+                            <li data-filter=".completed">Completed</li>
+                            <li data-filter=".concepts">Concepts</li>
+                            <li data-filter=".development">In Development</li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="filters-content">
+                <div class="row grid">
+                    <div class="col-lg-4 col-md-6 grid-sizer"></div>
+
+
+                    <div class="col-lg-4 col-md-6 grid-item all completed" data-wow-delay="0s">
+                        <div class="single-project">
+                            <div class="relative">
+                                <div class="thumb">
+                                    <img class="image img-fluid" src="img/projects/p2-elderberry-interior-remodel.jpg" alt="">
+                                </div>
+                                <div class="middle">
+                                    <h4>Elderberry Interior Renovation</h4>
+                                    <div class="cat">Completed</div>
+                                </div>
+                                <a class="overlay" href="elderberry-interior-remodel.html"></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 grid-item col-md-6 all completed">
+                        <div class="single-project">
+                            <div class="relative">
+                                <div class="thumb">
+                                    <img class="image img-fluid" src="img/projects/p1-hamilton-in-law-suite.jpg" alt="">
+                                </div>
+                                <div class="middle">
+                                    <h4>Hamilton In-Law Suite</h4>
+                                    <div class="cat">Completed</div>
+                                </div>
+                                <a class="overlay" href="hamilton-in-law-suite-addition.html"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 grid-item col-md-6 all Completed">
+                        <div class="single-project">
+                            <div class="relative">
+                                <div class="thumb">
+                                    <img class="image img-fluid" src="img/projects/p4-peppler-street.jpg" alt="">
+                                </div>
+                                <div class="middle">
+                                    <h4>Peppler Street</h4>
+                                    <div class="cat">Completed</div>
+                                </div>
+                                <a class="overlay" href="peppler-street.html"></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 grid-item col-md-6 all concepts">
+                        <div class="single-project">
+                            <div class="relative">
+                                <div class="thumb">
+                                    <img class="image img-fluid" src="img/projects/p8-cambridge-custom-addition.jpg" alt="">
+                                </div>
+                                <div class="middle">
+                                    <h4>Cambridge Custom Addition</h4>
+                                    <div class="cat">Concepts</div>
+                                </div>
+                                <a class="overlay" href="cambridge-custom-addition.html"></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 grid-item col-md-6 all development">
+                        <div class="single-project">
+                            <div class="relative">
+                                <div class="thumb">
+                                    <img class="image img-fluid" src="img/projects/p3-modern-farmhouse.jpg" alt="">
+                                </div>
+                                <div class="middle">
+                                    <h4>Modern Farmhouse Custom Home</h4>
+                                    <div class="cat">In Development</div>
+                                </div>
+                                <a class="overlay" href="modern-farmhouse-custom-home.html"></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 grid-item col-md-6 all development">
+                        <div class="single-project">
+                            <div class="relative">
+                                <div class="thumb">
+                                    <img class="image img-fluid" src="img/projects/p11-waterdown-modern-remodel.jpg" alt="">
+                                </div>
+                                <div class="middle">
+                                    <h4>Waterdown Modern Remodel</h4>
+                                    <div class="cat">In Development</div>
+                                </div>
+                                <a class="overlay" href="waterdown-modern-remodel.html"></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 grid-item col-md-6 all completed">
+                        <div class="single-project">
+                            <div class="relative">
+                                <div class="thumb">
+                                    <img class="image img-fluid" src="img/projects/p7-burlington-custom-house.jpg" alt="">
+                                </div>
+                                <div class="middle">
+                                    <h4>Burlington Custom House</h4>
+                                    <div class="cat">Completed</div>
+                                </div>
+                                <a class="overlay" href="burlington-custom-home.html"></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 grid-item all development" data-wow-delay="0s">
+                        <div class="single-project">
+                            <div class="relative">
+                                <div class="thumb">
+                                    <img class="image img-fluid" src="img/projects/p5-craftsman-farmhouse.jpg" alt="">
+                                </div>
+                                <div class="middle">
+                                    <h4>Craftsman Farmhouse</h4>
+                                    <div class="cat">In Development</div>
+                                </div>
+                                <a class="overlay" href="craftsman-farmhouse-addition.html"></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 grid-item col-md-6 all development">
+                        <div class="single-project">
+                            <div class="relative">
+                                <div class="thumb">
+                                    <img class="image img-fluid" src="img/projects/p6-ancaster.jpg" alt="">
+                                </div>
+                                <div class="middle">
+                                    <h4>Ancaster Addition</h4>
+                                    <div class="cat">In Development</div>
+                                </div>
+                                <a class="overlay" href="ancaster-addition.html"></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 grid-item col-md-6 all development">
+                        <div class="single-project">
+                            <div class="relative">
+                                <div class="thumb">
+                                    <img class="image img-fluid" src="img/projects/p9-burlington-second-floor-addition.jpg" alt="">
+                                </div>
+                                <div class="middle">
+                                    <h4>Burlington Second Floor Addition</h4>
+                                    <div class="cat">In Development</div>
+                                </div>
+                                <a class="overlay" href="burlington-second-floor-addition.html"></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 grid-item col-md-6 all development">
+                        <div class="single-project">
+                            <div class="relative">
+                                <div class="thumb">
+                                    <img class="image img-fluid" src="img/projects/p10-woolwish-inlaw-suite.jpg" alt="">
+                                </div>
+                                <div class="middle">
+                                    <h4>Woolwich Inlaw Suite Custom Addition</h4>
+                                    <div class="cat">In Development</div>
+                                </div>
+                                <a class="overlay" href="woolwich-inlaw-suite.html"></a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Project Area -->
+
+    
+    
+    <!-- start footer Area -->
+    <footer class="footer-area section-gap">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 single-footer-widget">
+                    <h4>BM Architectural Design <br> &copy; Copyright
+                        <script>
+                            document.write(new Date().getFullYear());
+                        </script>
+                    </h4>
+                    <ul>
+                        <li><b style="color:#fff;">Contact Info</b> <br> <a href="tel:+1519-721-4866">519.721.4866</a> <br> Servicing: Toronto, Kitchener, Missisauga, Brampton, Oakville, Hamilton, Burlington </li>
+
+
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-6 single-footer-widget">
+                    <h4>Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="projects.html">Portfolio</a></li>
+                        <li><a href="sustainability-as-a-focus.html">Sustainable Design</a></li>
+                        <li><a href="about.html">Our Story</a></li>
+
+                    </ul>
+                </div>
+
+                <div class="col-lg-3 col-md-6 single-footer-widget">
+                    <h4 style="color: #0e1424"><br></h4>
+                    <ul>
+
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="process.html">Process</a></li>
+                        <li><a href="contact.html">Get In Touch</a></li>
+
+                    </ul>
+                </div>
+
+
+                <div class="col-lg-4 col-md-6 single-footer-widget">
+                    <h4>Newsletter</h4>
+                    <p>Sign up to our newsletter!</p>
+                    <div class="form-wrap" id="mc_embed_signup">
+                        <form target="_blank" action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01" method="get" class="form-inline">
+                            <input class="form-control" name="EMAIL" placeholder="Your Email Address" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your Email Address'" required="" type="email" />
+                            <button class="click-btn btn btn-default">
+				                <span>subscribe</span>
+							</button>
+                            <div style="position: absolute; left: -5000px;">
+                                <input name="b_36c4fd991d266f23781ded980_aefe40901a" tabindex="-1" value="" type="text" />
+                            </div>
+
+                            <div class="info"></div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="row footer-bottom d-flex justify-content-between">
+                <p class="col-lg-8 col-sm-12 footer-text m-0 text-white">
+
+                    Website Designed by <a href="https://ambursley.com" target="_blank">Eloise Ambursley</a>
+
+                </p>
+                <div class="col-lg-4 col-sm-12 footer-social">
+                    <a href="https://www.facebook.com/bm_archdesign-423170538538901/"><i class="fa fa-facebook-f"></i></a>
+                    <a href="https://www.linkedin.com/in/benjamin-mcfadgen-32b002a2?trk=pub-pbmap"><i class="fa fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/bm_archdesign/"><i class="fa fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End footer Area -->
+
+    <script src="js/vendor/jquery-2.2.4.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+    <script src="js/vendor/bootstrap.min.js"></script>
+    <script src="js/jquery.ajaxchimp.min.js"></script>
+    <script src="js/parallax.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
+    <script src="js/jquery.nice-select.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/jquery.sticky.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
